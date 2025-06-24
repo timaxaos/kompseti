@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Добыча драгоценных камней</title>
+    <style>
+        table {
+            width: 600px;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        caption {
+            caption-side: top;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        thead tr {
+            background-color: #FF0000;
+            text-align: center;
+            vertical-align: middle;
+            color: white;
+        }
+        thead tr td {
+            color: white;
+        }
+        tbody tr:first-child td:first-child,
+        tbody tr:nth-child(2) td:first-child,
+        tbody tr:nth-child(3) td:first-child {
+            background-color: #009999;
+            color: white;
+        }
+        td {
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: middle;
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <caption>Добыча драгоценных камней</caption>
+    <thead>
+        <tr>
+            <td></td>
+            <td>2014</td>
+            <td>2015</td>
+            <td>2016</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Сапфиры</td>
+            <td rowspan="2">1483</td>
+            <td>4532</td>
+            <td>6743</td>
+        </tr>
+        <tr>
+            <td>Рубины</td>
+            <td>3835</td>
+            <td>7482</td>
+        </tr>
+        <tr>
+            <td>Алмазы</td>
+            <td>683</td>
+            <td colspan="2">238</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
